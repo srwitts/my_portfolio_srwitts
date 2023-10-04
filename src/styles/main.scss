@@ -1,0 +1,68 @@
+@use 'variaveis';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Scroll do Site */
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bbb;
+}
+
+/* BTN GLOBAL */
+.btn {
+    font-weight: 500;
+    padding: 12px 20px;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+
+    > i {
+        margin-left: 10px;
+    }
+
+    &:hover {
+        background: variaveis.$secondColor;
+        color: variaveis.$colorWhite;
+    }
+}
+
+/* ICON DESIGN GLOBAL */
+i {
+    font-size: 16px;
+}
+
+body {
+    background: variaveis.$bodyColor;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
