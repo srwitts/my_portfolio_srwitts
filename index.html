@@ -8,14 +8,14 @@
     <!-- UNICONS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- Add Favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" type="image/png" href="assets/images/portfolio.png">
 </head>
 <body>
     <div class="container">
         <!-- HEADER -->
-        <nav id="header">
+        <nav class="nav" id="header">
             <div class="nav-logo">
-                <p class="nav-name">Witts</p>
+                <p class="nav-logo-name">Witts</p>
                 <span>.</span>
             </div>
             <div class="nav-menu" id="myNavMenu">
@@ -66,25 +66,25 @@
                         <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
                     </div>
                     <div class="social_icons">
-                        <div class="icon"><i class="uil uil-instagram"></i></div>
-                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                        <div class="social_icons_icon"><i class="uil uil-instagram"></i></div>
+                        <div class="social_icons_icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="social_icons_icon"><i class="uil uil-github-alt"></i></div>
                     </div>
                 </div>
                 <div class="featured-image">
-                    <div class="image">
+                    <div class="featured-image-content">
                         <img src="./dist/images/img_profile.jpg" alt="Avatar">
                     </div>
                 </div>
                 <div class="scroll-icon-box">
-                    <a href="#about" class="scroll-btn">
+                    <a href="#about" class="scroll-icon-box-btn">
                         <i class="uil uil-mouse-alt"></i>
                         <p>Role para baixo</p>
                     </a>
                 </div>
             </section>
             <!-- ABOUT BOX -->
-            <section class="section_about" id="about">
+            <section class="section" id="about">
                 <div class="top-header">
                     <h1>Sobre Mim</h1>
                 </div>
@@ -95,17 +95,17 @@
                             <p>
                                 Sou versado em HTML, CSS e JavaScript, além de outros frameworks e bibliotecas de última geração, o que me permite implementar recursos interativos.
                             </p>
-                            <div class="about-btn">
+                            <div class="about-info-button">
                                 <button class="btn">Download CV <i class="uil uil-import"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="skills-box">
-                            <div class="skills-header">
+                            <div class="skills-box-header">
                                 <h3>Front-End</h3>
                             </div>
-                            <div class="skills-list">
+                            <div class="skills-box-list">
                                 <span>HTML</span>
                                 <span>CSS</span>
                                 <span>Bootstrap</span>
@@ -114,18 +114,18 @@
                             </div>
                         </div>
                         <div class="skills-box">
-                            <div class="skills-header">
+                            <div class="skills-box-header">
                                 <h3>Back-End</h3>
                             </div>
-                            <div class="skills-list">
+                            <div class="skills-box-list">
                                 <span>Python</span>
                             </div>
                         </div>
                         <div class="skills-box">
-                            <div class="skills-header">
+                            <div class="skills-box-header">
                                 <h3>Database</h3>
                             </div>
-                            <div class="skills-list">
+                            <div class="skills-box-list">
                                 <span>MySQL</span>
                                 <span>PostgreSQL</span>
                             </div>
@@ -134,6 +134,58 @@
                 </div>
             </section>
             <!-- PROJECT BOX -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projetos</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Completado</h3>
+                        <label>15+ Projetos Finalizados</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clientes</h3>
+                        <label>25+ Clientes Contentes</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experiência</h3>
+                        <label>1 Ano em campo</label>
+                    </div>
+                </div>
+            </section>
+            <!-- CONTACT BOX -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Entrar em contato</h1>
+                    <span>Você tem um projeto em mente, me contate por aqui</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Me Encontre <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>Email: edwardwitts13@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> +55 (11) 96131-0092</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-control-inputs">
+                                <input type="text" class="input-field" placeholder="Nome">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="form-control-textArea">
+                                <textarea placeholder="Mensagem"></textarea>
+                            </div>
+                            <div class="form-control-button">
+                                <button class="btn">Enviar <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 
