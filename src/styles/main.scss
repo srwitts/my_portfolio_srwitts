@@ -242,6 +242,7 @@ nav {
 
 .image {
     margin: auto 0;
+    margin-right: 100px;
     width: 380px;
     height: 380px;
     animation: imgFloat 7s ease-in-out infinite;
@@ -250,6 +251,7 @@ nav {
         width: 380px;
         height: 380px;
         object-fit: contain;
+        border-radius: 50%;
     }
 }
 
@@ -648,6 +650,7 @@ footer {
     .image, .image img {
         width: 150px;
         height: 150px;
+        margin-right: 0;
     }
 
     .row {
@@ -677,7 +680,31 @@ footer {
 }
 
 /* 540px RESPONSIVO */
-@media only screnn and (max-width: 540px) {
+@media only screen and (max-width: 540px) {
+    .skills-box {
+        margin: 22px;
+    }
+
+    .featured-text-card {
+        span {
+            margin-left: 3px;
+        }
+    }
+
+    .featured-text-info {
+        p {
+            margin-left: 3px;
+        }
+    }
+
+    .featured-text-btn {
+        margin-left: 3px;
+    }
+
+    .social_icons {
+        margin-left: 3px;
+    }
+
     .featured-name {
         font-size: 40px;
     }
@@ -692,5 +719,11 @@ footer {
 
     .input-field {
         width: 100%;
+    }
+
+    .bottom-footer {
+        p {
+            font-size: 12px;
+        }
     }
 }
