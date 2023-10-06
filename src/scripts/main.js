@@ -101,3 +101,13 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive)
+
+/* Config dos Buttons Donwload CV */
+function baixarPDF() {
+    let link = document.createElement("a");
+    link.href = "./src/download/CV_EBAC_EdwardWitts.pdf";
+    link.download = "CV_EBAC_EdwardWitts.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
