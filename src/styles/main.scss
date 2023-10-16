@@ -65,7 +65,12 @@ body {
     width: 100%;
     position: relative;
     overflow-x: hidden;
+
+    &--padding {
+        padding: 0 60px;
+    }
 }
+
 
 /* NAV BAR HEADER */
 nav {
@@ -589,6 +594,12 @@ footer {
 
 /* 900px RESPONSIVO */
 @media only screen and (max-width: 900px) {
+    .container {
+        &--padding {
+            padding: 0 10px;
+        }
+    }
+
     .nav-button {
         display: none;
     }
@@ -706,7 +717,7 @@ footer {
     }
 
     .featured-name {
-        font-size: 38px;
+        font-size: 36px;
     }
 
     .project-box {
